@@ -25,11 +25,9 @@ dictionary = pickle.load( open("../final_project/final_project_dataset_modified.
 #"""
 print "Regression on 'bonus' and 'salary'"
 features_list = ["bonus", "salary"]
-
 """
 print "Regression on 'bonus' and 'long_term_incentive'"
 features_list = ["bonus", "long_term_incentive"]
-
 """
 data = featureFormat( dictionary, features_list, remove_any_zeroes=True)
 target, features = targetFeatureSplit( data )
@@ -59,12 +57,6 @@ print "score on test dataset:\n", reg.score(feature_test,target_test), "\n"
 
 
 
-
-
-
-
-
-
 ### draw the scatterplot, with color-coded training and testing points
 import matplotlib.pyplot as plt
 for feature, target in zip(feature_test, target_test):
@@ -77,8 +69,6 @@ plt.scatter(feature_test[0], target_test[0], color=test_color, label="test")
 plt.scatter(feature_test[0], target_test[0], color=train_color, label="train")
 
 
-
-
 ### draw the regression line, once it's coded
 try:
     plt.plot( feature_test, reg.predict(feature_test) )
@@ -88,7 +78,7 @@ except NameError:
 ###########   Added an outlier to our training set (to showthis we will plot this new line)####################
 #reg.fit(feature_test, target_test)
 #plt.plot(feature_train, reg.predict(feature_train), color="b")
-###############################
+###############################################################################################################
 plt.xlabel(features_list[1])
 plt.ylabel(features_list[0])
 plt.legend()
