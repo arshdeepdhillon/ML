@@ -1,0 +1,51 @@
+Continuous and Discrete
+	Continuous - use it when there is some type of order (eg income, age)
+	Discrete   - use it when there is no order in the outcome (eg weather, ph#)
+		
+		
+Ordinary Least Squares == linear regression 
+	
+One important performance metric is called r-squared.
+	* The higher the r-squared the better (0.0 < r^2 < 1.0, max r-squared = 1.0)
+	
+	* If r^2 is small, your RL isn't doing good enough of capturing the trend 
+	   in the data.
+	* If r^2 is big, your RL does good enough of capturing the relationship 
+	   between input(x) and output(y)
+	* r^2 is independent of the number of training points.
+	
+	
+	
+Linear Regression Errors
+	
+	error = actual net worth - predicted net worth
+			^^^^^^			   ^^^^^^	-> predicted by regression line
+			^ -> taken from training data
+	
+	error is the distance between the point and the regression line.
+
+	
+	
+The best Linear regression is where it minimizes the sum of squared errors:
+	
+	SUM(actual - predicted)^2 
+				 ^^^^^^^^^ -> predictions y = mx+b, once you find m & b that 
+							   minimizes SUM(actual - predicted)^2 you found 
+							   the regression line you are DONE
+							   
+		^^^^^^ -> training points 
+		
+	^^^ -> all training points
+	
+	Larger SSE (sum of squared error) means its the WORST FIT
+		* As you add more data the SSE will almost certainly increase because 
+		   each point will most likely have error but that doesn't mean the fit is doing a worse job.
+	
+	The ambiguity exists when you taken the sum of the points if points that 
+	 are equally spaced from the RL (regression line). You want to have only 
+	 ONE best RL, SUM error^2 is used to get rid of that.
+
+	 
+Algorithms: 
+	OLS (ordinary least squares)
+	Gradient Descent 
