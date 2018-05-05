@@ -1,0 +1,5 @@
+K must be odd number to avoid the draw in votes
+
+Pros: Its robust with lots of data and with noisy data 
+Cons: For different value of K you might not get the same result (duh)
+

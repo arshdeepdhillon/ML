@@ -1,0 +1,29 @@
+K-Nearest Neighbors
+
+	algorithm=brute
+	training time: 0.001 s
+	predicting time: 0.006 s
+	accuracy =  0.936
+	
+	algorithm=kd_tree
+	training time: 0.002 s
+	predicting time: 0.002 s
+	accuracy =  0.936
+	
+	algorithm=ball_tree
+	training time: 0.002 s
+	predicting time: 0.003 s
+	accuracy =  0.936
+	
+
+Random Forest
+	RandomForestClassifier(max_depth =100, min_samples_split= 70)
+	training time: 0.016 s
+	predicting time: 0.0 s
+	accuracy =  0.932
+
+AdaBoostRegressor
+	AdaBoostRegressor(DecisionTreeClassifier(), loss = "square", learning_rate = 1, n_estimators = 1)
+	training time: 0.006 s
+	predicting time: 0.001 s
+	accuracy =  0.916

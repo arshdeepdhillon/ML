@@ -1,0 +1,5 @@
+Types of Data
+	Numerical   - numerical values (numbers)
+	Categorical - limited number of discrete values (category) (eg: class label, person is F or M)
+	Time Series - temporal value (date, time stamp)
+	Text        - words

@@ -1,0 +1,29 @@
+The goal of any supervised machine learning algorithm is to achieve low bias and low variance.
+
+Variance 
+	is the amount that the estimate of the target function will change 
+	 if different training data was used.
+	
+	* The target function is estimated from the training data by a machine 
+	   learning algorithm, so we should expect the algorithm to have some 
+	   variance. Ideally, it should not change too much from one training 
+	   dataset to the next, meaning that the algorithm is good at picking 
+	   out the hidden underlying mapping between the inputs and the output 
+	   variables.
+	   
+	   
+	Low Variance: Suggests small changes to the estimate of the target 
+				   function with changes to the training dataset.
+				   
+	High Variance: Suggests large changes to the estimate of the target 
+				   function with changes to the training dataset.
+				   
+Bias
+	are the simplifying assumptions made by a model to make the target function easier to learn.
+	
+	* Generally, parametric algorithms have a high bias making them fast to learn and easier to 
+	   understand but generally less flexible. In turn, they have lower predictive performance on 
+	   complex problems that fail to meet the simplifying assumptions of the algorithms bias.
+
+	Low Bias: Suggests less assumptions about the form of the target function.
+	High-Bias: Suggests more assumptions about the form of the target function.

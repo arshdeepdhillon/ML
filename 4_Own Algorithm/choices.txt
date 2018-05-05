@@ -1,0 +1,12 @@
+Algorithms:
+	* k nearest neighbors
+	* random forest
+	* adaboost (sometimes also called boosted decision tree)
+	
+	
+Process:
+	1. Do some research, get a general understanding 
+	2. Find sklearn documentation
+	3. Deploy it
+	4. Use it to make predictions
+	5. Evaluate it, what is the accuracy ?

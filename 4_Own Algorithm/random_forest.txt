@@ -1,0 +1,15 @@
+It uses bunch of decision trees to choose the final answer
+	* eg: Using 1000x DT, each tree gives its prediction then 
+		   the final answer is selected by majority voting.
+	
+Random Forest is a collections for decision trees. They are also 
+ known as Ensemble ML Algo which use divide and concur approach to 
+ increase performance  .
+
+
+Pros: When we have more trees in the forest it won't over fit.
+Cons: It doesn't predict beyond the range of train data and it 
+	   may over fit data sets that are noisy.
+	  
+	  You have very little control what the model does. 	
+

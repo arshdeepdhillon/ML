@@ -1,0 +1,21 @@
+Margin: Maximizes distance to nearest point of the two classes
+		* To maximize the robustness (margin)
+		* SVM first puts the correct classification of the labels and then
+		   maximizes the margin
+		* Ignores outliers 
+		
+Parameters of SVM: kernel, C, gamma
+	C:	Controls trade off between SMOOTH DECISION BOUNDARY and CLASSIFYING 
+		 TRAINING POINTS CORRECTLY
+		   
+		* A low C makes the decision surface smooth, while a high C aims at 
+		  classifying all training examples correctly by giving the model 
+		  freedom to select more samples as support vectors.
+	
+	gamma: low values - even the far points are taken into consideration for drawing the line 
+		   far values - the close points are taken into consideration for drawing the line 
+		   
+		   * Defines how far the influence of a single training example reaches
+		   
+	
+By tuning C and training on a large dataset we should get a fairly optimized result.
