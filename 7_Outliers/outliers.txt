@@ -1,0 +1,8 @@
+Outlier Detection
+	1. Train
+	2. Remove ~10% dataset	(after #1, remove those with the highest visitor
+	error)
+	3. Train again
+	
+	
+N x 2, where N is the number of data points and 2 is the number of features. 
