@@ -1,8 +1,7 @@
 Decision Trees: allow you to ask multiple linear questions one after the other
 
 min_samples_split: The minimum number of samples required to split an internal node
-				   * If is small we can over fit our data, increasing this value
-				      lets us generalize the data.
+			* If is small we can over fit our data, increasing this value lets us generalize the data.
 					  
 Def Entropy: Measures the IMPURITY in a bunch of examples 
 			* Controls how a decision tree (DT) decides where to split the data.
@@ -13,10 +12,9 @@ Def Entropy: Measures the IMPURITY in a bunch of examples
 Entropy = - ∑ p_i log_2 (p_i)
 
 Information Gain = entropy(parent) - [weighted average]entropy(children)
-									 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ this means the weighted average of the	entropy of the children			
-									 
-The decision tree algorithm will maximize information gain									 
+		                              ^^^^^^^^^^^^ this means the weighted average of the entropy of the children
 
+The decision tree algorithm will maximize information gain.
 
 Pros: Build bigger classifier out of DT
 Cons: Prone to over fitting 
