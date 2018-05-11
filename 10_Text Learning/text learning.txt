@@ -1,0 +1,17 @@
+"Bag Of Words":
+	* Count the frequency of a word from a text
+	* Order of text does not matter
+	* Long phrases give different input vector
+	* In sklearn Bag Of Words is called CountVectorizer
+
+Stopwords:
+	* Low information word that occurs frequently.
+		eg: the, in, for, you, will, have, be
+
+		
+TF IDF Representation:
+	TF:  term frequency (eg bag of words)
+	IDF: inverse document frequency (eg weighting by how often word occurs in corpus)
+	
+	* It rate the rare words more highly than the common words.
+		

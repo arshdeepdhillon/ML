@@ -1,0 +1,14 @@
+Feature Scaling:
+	is a method for re-scaling features so they range between [0,1]. The original information will stay the same.	
+
+	* It’s a type of feature preprocessing that you should perform before 
+	   some classification and regression tasks.
+	   
+	   
+	x'    = new (rescaled) feature
+	x	  = is the old value of the individual feature that you're rescaling   	
+	x_min = are taken by from the old feature before it was rescaled
+	x_max = are taken by from the old feature before it was rescaled
+	
+	
+	x' = (x - x_min) / (x_max - x_min)

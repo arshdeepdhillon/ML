@@ -1,0 +1,15 @@
+Algorithm:
+	K-means
+		
+	
+	
+K-means:
+	works in 2 steps:
+		1. assign
+		2. optimize
+		
+	It uses local hill climbing algorithm, so the initialization matters.
+	
+Feature Scaling:
+	It’s a type of feature preprocessing that you should perform before 
+	 some classification and regression tasks.

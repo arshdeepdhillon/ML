@@ -1,0 +1,42 @@
+Features != Information:
+	* Generally you want bare minimum number of features
+       which will give you as much information as possible.
+	   
+	   
+Why might we ignore a feature?:
+	* It creates a noisy data set
+	* It causes overfitting
+	* It is highly correlated with a feature that is
+	   already present
+	* Additional features slow down training/testing process
+
+	
+2 big Univariate feature selection tools in sklearn:
+	SelectPercentile and SelectKBest:
+		 * SelectPercentile selects the X% of features that are most powerful where X is a parameter
+		 * SelectKBest selects the K features that are most powerful where K is a parameter
+		 
+
+High Bias     - pays little attention to data (its oversimplified)
+	* Higher error on training set (low r^2, large SSE)
+	
+High Variance - pays too much attention to data (it overfits)
+	* Much higher error on test set than on training set
+
+Ideal case to have is few features large r^2/low SSE.
+	
+	
+Regularization in Regression:
+	* It's an automatic form of feature selection that some algorithms can do
+	   completely on their own.
+	* Finding the balance between number of features and quality of the model.
+
+	Method for AUTOMATICALLY PENALIZING EXTRA FEATURES:
+		Lasso Regression:
+		
+			λ -> parameter
+			β -> coefficients of regression
+			
+			minimize SSE + λ|β|
+	
+	

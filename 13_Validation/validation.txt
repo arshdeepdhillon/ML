@@ -1,0 +1,10 @@
+Why use Training and Testing Data?:
+	* Gives you an estimate of performance pn an independent dataset
+	* Serves as a check on overfitting
+	
+When training testing split in sklearn look for functions that have CROSS-VALIDATION.
+
+Cross-Validation:
+	* It "shuffles" the data so there is less bias
+	
+	

@@ -1,0 +1,19 @@
+PCA (Principal Component Analysis):
+	* PCA finds new coordinate system that's obtained from the old one by
+	   translation and rotation only.
+	* PCA finds a coordinate system that centers itself in the data and aligns
+	   the x axis with the principle axis of variation.
+	   
+	  
+Advantages of Maximal Variance:
+	When doing compression:
+		* When we project along the dimension of the largest variance this
+		   retains the maximum amount of information in the original data.
+	   
+When you use PCA:
+	* Latent features driving the patterns in the data.
+	* Dimensionality reduction
+		* It helps you visualize high dimensional data
+		* Reduce noise
+		* make other algorithms work better because fewer inputs
+	  

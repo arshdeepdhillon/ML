@@ -8,7 +8,7 @@ Ordinary Least Squares == linear regression
 One important performance metric is called r-squared.
 	* The higher the r-squared the better (0.0 < r^2 < 1.0, max r-squared = 1.0)
 	
-	* If r^2 is small, your RL isn't doing good enough of capturing the trend 
+	* If r^2 is small, your RL (Regression Line) isn't doing good enough of capturing the trend 
 	   in the data.
 	* If r^2 is big, your RL does good enough of capturing the relationship 
 	   between input(x) and output(y)

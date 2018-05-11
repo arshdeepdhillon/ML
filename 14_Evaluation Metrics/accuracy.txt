@@ -1,0 +1,7 @@
+accuracy = (# of all data points labeled correctly) / (all data points)
+
+What are some flaws of accuracy for POI ID?
+	Accuracy can give you a problem when:
+		* You have skewed classes
+		* May want to error on side of guessing  innocent
+		* May want to error on side of guessing guilty
